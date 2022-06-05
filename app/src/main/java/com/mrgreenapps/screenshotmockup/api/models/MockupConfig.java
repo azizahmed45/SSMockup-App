@@ -1,8 +1,8 @@
-package com.mrgreenapps.screenshotmockup.ssmockup;
+package com.mrgreenapps.screenshotmockup.api.models;
 
 public class MockupConfig {
 
-    int left, top, right, bottom;
+    public int left, top, right, bottom;
 
     public MockupConfig(int left, int top, int right, int bottom) {
         this.left = left;
