@@ -1,6 +1,8 @@
 package com.mrgreenapps.screenshotmockup.api.models;
 
-public class MockupConfig {
+import java.io.Serializable;
+
+public class MockupConfig implements Serializable {
 
     public int left, top, right, bottom;
 

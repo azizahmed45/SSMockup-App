@@ -1,4 +1,4 @@
-package com.mrgreenapps.screenshotmockup.api.models;
+package com.mrgreenapps.screenshotmockup.api;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
@@ -14,7 +14,8 @@ import retrofit2.converter.gson.GsonConverterFactory;
 public class ApiService {
 
     public static ApiClient getApiClient() {
-        final String BASE_URL = "https://ssmockup.mrgreenapps.com/api/";
+//        final String BASE_URL = "https://ssmockup.mrgreenapps.com/api/";
+        final String BASE_URL = "http://9202-8-25-96-59.ngrok.io/api/";
 
         Retrofit retrofit;
         ApiClient apiClient;

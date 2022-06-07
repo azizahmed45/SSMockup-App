@@ -1,6 +1,9 @@
 package com.mrgreenapps.screenshotmockup.api.models;
 
-public class MockupFile {
+import java.io.Serializable;
+
+public class MockupFile implements Serializable {
+    public int id;
     public String name;
     public String path;
     public String url;
